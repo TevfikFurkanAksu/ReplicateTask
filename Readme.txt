@@ -1,0 +1,1 @@
+Sürüm 4.5 tir. Connection string yazılı değildir.

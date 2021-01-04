@@ -1,0 +1,484 @@
+﻿
+@{
+    ViewBag.Title = "SupportSayfasi";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from grona.dev/demo/v1.0.1/html/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Oct 2020 07:31:34 GMT -->
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <title>PANDA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="~/Content/assets/images/fav/favicon.png" type="image/x-icon">
+    <link rel="icon" href="~/Content/assets/images/fav/favicon.png" type="image/x-icon">
+    <!-- icons -->
+    <link href="~/Content/assets/icons/style.css" rel="stylesheet">
+    <!-- vendors -->
+    <link href="~/Content/vendor/slick/slick.css" rel="stylesheet">
+    <link href="~/Content/vendor/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+    <link href="~/Content/vendor/jquery.scrollbar/jquery.scrollbar.css" rel="stylesheet">
+    <link href="~/Content/vendor/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/theme.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/yeni.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });</script>
+    <script type="text/javascript">
+        function bigImg(x) {
+            document.getElementById("card-hov").style.display="none";
+            document.getElementById("card-hov-1").style.display="block";
+        }
+
+
+    </script>
+    <script>
+
+        function goster1() {
+            document.getElementById("card-1").style.display="block";
+            document.getElementById("card-2").style.display="none";
+            document.getElementById("card-3").style.display="none";
+            document.getElementById("card-4").style.display="none";
+        }
+    </script>
+    <script>
+
+        function goster2() {
+            document.getElementById("card-1").style.display="none";
+            document.getElementById("card-2").style.display="block";
+            document.getElementById("card-3").style.display="none";
+            document.getElementById("card-4").style.display="none";
+        }
+    </script>
+    <script>
+
+        function goster3() {
+            document.getElementById("card-1").style.display="none";
+            document.getElementById("card-2").style.display="none";
+            document.getElementById("card-3").style.display="block";
+            document.getElementById("card-4").style.display="none";
+        }
+    </script>
+    <script>
+
+        function goster4() {
+            document.getElementById("card-1").style.display="none";
+            document.getElementById("card-2").style.display="none";
+            document.getElementById("card-3").style.display="none";
+            document.getElementById("card-4").style.display="block";
+        }
+    </script>
+</head>
+
+<body style="">
+
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="header-nav w-100">
+                    <nav class="navbar navbar-light navbar-expand-lg has-mega-menu-advanced">
+                        <!-- logo -->
+                        <a class="navbar-brand header-brand" href="index-intro.html"><img src="~/Content/assets/images/logo.svg" class="header-logo img-fluid" alt="grona"></a>
+
+                        <!-- navbar menu items -->
+                        <div class="header-menu collapse navbar-collapse">
+                            <ul class="navbar-nav mr-auto">
+                                <!-- menu item : mega menu advanced -->
+                                <li class="nav-item dropdown mega-menu-advanced-wrapper">
+                                    <a class="nav-link dropdown-toggle" href="#" id="homelink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Help Center
+                                    </a>
+                                </li>
+                                <!-- menu item : mega menu advanced -->
+                                <li class="nav-item dropdown mega-menu-advanced-wrapper">
+                                    <a class="nav-link dropdown-toggle" href="#" id="pageslink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Training
+                                    </a>
+                                </li>
+                                <!-- menu item : menu hoverable -->
+                                <li class="nav-item dropdown dropdown-hoverable">
+                                    <a class="nav-link dropdown-toggle dropdown-hover-toggle" href="#" id="elementlink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Forums
+                                    </a>
+
+
+                                </li>
+                                <!-- menu item : mega menu -->
+                                <li class="nav-item dropdown mega-menu-wrapper">
+                                    <a class="nav-link dropdown-toggle" href="#" id="elementlink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Unleashed
+                                    </a>
+
+
+                                </li>
+                                <li class="nav-item dropdown mega-menu-wrapper">
+                                    <a class="nav-link dropdown-toggle" href="#" id="elementlink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Product Updates
+                                    </a>
+
+
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- header right side -->
+                        <div class="header-btns">
+                            <nav class="header-nav-btns">
+                                <ul class="list-inline m-0">
+
+                                    <li class="list-inline-item">
+                                        <a href="#" class="btn btn-gradient-global btn-curved btn-overlay d-none d-lg-block">
+                                            Sign In
+                                        </a>
+                                        <!-- menu toggle button -->
+                                        <button type="button" class="btn menu-toggle d-block d-lg-none"><i class="icon--menu-line"></i></button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container" style="margin-top: 4vw">
+            <div class="row">
+
+                <div class="col-md-9">
+
+                    <div class="breadcrumb-wrap">
+                        <nav class="breadcrumb-nav">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Help Center</a></li>
+                                <li class="breadcrumb-item"><a href="#">Training</a></li>
+                                <li class="breadcrumb-item"><a href="#">Self-Paced Onboarding</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                    <div class="text-global" style="margin-top: 2vw">
+                        <h3><strong> Self-paced Onboarding: Login and <br> Setup</strong></h3>
+                    </div>
+
+                    <div class="post-item-author media" style="margin-top: 2vw">
+                        <a href="#" class="post-item-author-avatar mr-2">
+                            <img src="~/Content/assets/images/avatars/avatar02.png" class="avatar avatar-48" alt="Ana Rhodes">
+                        </a>
+                        <div class="media-body align-self-center">
+                            <a href="#" class="font-regular">Ana Rhodes</a>
+                            <div class="font-xs text-muted post-item-date">
+                                <i class="icon-clock font-sm"></i> 9min ago
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 2vw">
+                        <p style="font-size: 0.8rem"><strong> Editor: 2.0</strong></p>
+                    </div>
+
+                    <div style="margin-top: 0.5vw">
+                        <p style="font-size: 0.8rem"><strong>Difficulty Rating: ◉◎◎◎◎ </strong></p>
+                    </div>
+
+                    <div style="margin-top: 0.5vw">
+                        <p style="font-size: 0.8rem"><strong> Watch Time: 3 min</strong></p>
+                    </div>
+
+                    <div style="margin-top: 3vw ">
+                        <p style="font-sizefont-size: 0.9rem;">This video is the first in a series of training sessions about getting started with PandaDoc. You can expect the entire series to take about an hour to watch, but this specific video should only take you about 3 minutes to complete.</p>
+                    </div>
+
+                    <div style="margin-top: 1vw ">
+                        <p style="font-size: 0.9rem;">This introduction video will give you a brief overview of how to:</p>
+                    </div>
+
+                    <div style="margin-top: 1.5vw">
+                        <ul class="check-list check-list-global">
+                            <li style="font-size: 0.9rem;">Login to PandaDoc</li>
+                            <li style="font-size: 0.9rem;">Set up your profile settings</li>
+                            <li style="font-size: 0.9rem;">Configure your branding</li>
+                            <li style="font-size: 0.9rem;">Add additional team members</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-top: 1.5vw">
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/nZCCi3da9m0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div style="margin-top: 1vw ">
+                        <p style="font-size: 0.9rem;">Once that you have your settings configured, it’s time to create your first editable template! Next up, how to create a template from scratch.</p>
+                    </div>
+
+                    <div style="margin-top: 1vw ">
+                        <div class="border-bottom"></div>
+                    </div>
+
+                    <div style="margin-top: 2.5vw ">
+                        <center><p style="font-size: 0.9rem;">Was this article helpful?</p></center>
+                    </div>
+
+                    <div style="margin-top: 1vw ">
+                        <center>
+                            <button style="width: 6vw;height: 2.5vw" type="button" class="btn btn-global">YES</button>
+                            <button style="width: 6vw;height: 2.5vw" type="button" class="btn btn-global">NO</button>
+                        </center>
+                    </div>
+
+                    <div style="margin-top: 3vw ">
+                        <div class="border-bottom"></div>
+                    </div>
+
+                    <div style="margin-top: 2.5vw">
+                        <ul class="">
+                            <li style="font-size: 1rem;margin-top: 1vw"><strong>Related articles</strong> </li>
+                            <a href=""> <li style="font-size: 1rem;margin-top: 1vw">Self-paced Onboarding: Creating a Template</li></a>
+                            <a href=""> <li style="font-size: 1rem;margin-top: 1vw">Self-paced Onboarding: Workflow</li></a>
+                            <a href=""> <li style="font-size: 1rem;margin-top: 1vw">Self-paced Onboarding: Sending a Document</li></a>
+                            <a href="">  <li style="font-size: 1rem;margin-top: 1vw">PandaDoc fundamentals</li></a>
+                            <a href=""> <li style="font-size: 1rem;margin-top: 1vw">Transitioning to Editor 2.0</li></a>
+                        </ul>
+                    </div>
+
+                    <div style="margin-top: 5vw ">
+                        <div class="border-bottom"></div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="col-md-3">
+
+                    <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+
+                    <div>
+                        <h5>Training</h5>
+                    </div>
+
+
+
+                    <div style="margin-top: 1.5vw;margin-bottom: 1.5vw">
+                        <div class="dropdown ">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Self-paced Onboarding
+                            </button>
+                            <div class="dropdown-container" aria-labelledby="dropdownMenuButton" style="background-color: white;display: none">
+                                <ul>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw;color: #E72678!important">Self-paced Onboarding: Login and Setup</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">Self-paced Onboarding: Login and Setup</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">Self-paced Onboarding: Login and Setup</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5vw;margin-bottom: 1.5vw">
+                        <div class="dropdown ">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Migration
+                            </button>
+                            <div class="dropdown-container" aria-labelledby="dropdownMenuButton" style="background-color: white;display: none">
+                                <ul>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">Transitioning to Editor 2.0</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">DocuSign to PandaDoc</li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.5vw;margin-bottom: 1.5vw">
+                        <div class="dropdown ">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Integrations
+                            </button>
+                            <div class="dropdown-container" aria-labelledby="dropdownMenuButton" style="background-color: white;display: none">
+                                <ul>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">PipeDrive Training</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">Zapier Setup</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">HubSpot Training</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">SalesForce: Foundations</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">SalesForce: PricingTable</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">SalesForce: Two-way Sync</li></a>
+                                    <a href=""><li style="margin-top: 0.5vw;margin-bottom: 0.5vw">SalesForce: Workflow</li></a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <div class="card ">
+                            <div class="card-body" style="background-color: #f3f5f6">
+                                <h3 class="card-title text-body" style="margin-top: 1.5vw "><strong>Close more deals</strong></h3>
+                                <p class="card-text mb-3">
+                                    and empower your sales team with our all-in-one proposal software.
+                                </p>
+                                <center> <a href="#" class="btn btn-global btn-curved" style="margin-bottom:1.5vw; margin-top: -2vw">Try PandaDoc For Free!</a></center>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section>
+        <div class="border-bottom"></div>
+        <div class="container" style="width: 40rem; background-color:white; ">
+
+            <div class="row" style="margin-top: 3vw;">
+
+                <div class="col-md-1">
+                </div>
+
+                <div class="col-md-10">
+                    <a href="" class="  font-md font-weight-semi">
+                        <span style="color:black;"> Contact support </span>
+                    </a><a href="" class="  font-md font-weight-semi">
+                        <span style="color:black; padding-left: 1vw;">Go to pandadoc.com </span>
+                    </a>
+                    <a href="" class="  font-md font-weight-semi" style="padding-left: 1vw;">
+                        <span style="color:black;"> Ideal Portal </span>
+                    </a>
+                </div>
+
+                <div class="col-md-1">
+                </div>
+
+            </div>
+
+
+            <div class="row" style="    padding-left: 13vw; margin-top: 1vw;">
+
+                <div style="color:black; ">
+                    <ul class="list-inline social-list ">
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-dribbble"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-pinterest"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class=""><i class="icon-facebook"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <a href="#" class="goup"><i class="icon-double-up"></i></a>
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("btn btn-light dropdown-toggle");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+    </script>
+
+    <!-- global scripts -->
+    <script src="~/Content/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- vendors -->
+    <script src="~/Content/vendor/slick/slick.js"></script>
+    <script src="~/Content/vendor/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="~/Content/vendor/lazyload/dist/lazyload.min.js"></script>
+    <script src="~/Content/vendor/skrollr/dist/skrollr.min.js"></script>
+    <script src="~/Content/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/Content/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="~/Content/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+
+    <!-- scripts -->
+    <script src="~/Content/assets/js/script.js"></script>
+    <!-- inline page scripts -->
+    <script>
+    if(!is_touch_device()){
+        $( window ).on("load", function() {
+            var s = skrollr.init({
+                forceHeight: false,
+            });
+        });
+    }
+    </script>
+    <!-- init countdown -->
+    <script>
+    $('.countdown').each(function(e){
+        var countdown_until = $(this).data('countdown');
+        $(this).countdown(countdown_until, function(event) {
+            $(this).html(event.strftime('%-D<small>Day%!D</small> %H<small>Hour%!H</small> %M<small>Minute%!M</small> %S<small>Seconds</small>'));
+        });
+    })
+    </script>
+</body>
+</html>

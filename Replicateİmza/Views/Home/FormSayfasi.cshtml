@@ -1,0 +1,380 @@
+﻿
+@{
+    ViewBag.Title = "FormSayfasi";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from grona.dev/demo/v1.0.1/html/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 Oct 2020 07:31:34 GMT -->
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <title>PANDA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="~/Content/assets/images/fav/favicon.png" type="image/x-icon">
+    <link rel="icon" href="~/Content/assets/images/fav/favicon.png" type="image/x-icon">
+    <!-- icons -->
+    <link href="~/Content/assets/icons/style.css" rel="stylesheet">
+    <!-- vendors -->
+    <link href="~/Content/vendor/slick/slick.css" rel="stylesheet">
+    <link href="~/Content/vendor/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+    <link href="~/Content/vendor/jquery.scrollbar/jquery.scrollbar.css" rel="stylesheet">
+    <link href="~/Content/vendor/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/theme.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="~/Content/assets/css/yeni.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });</script>
+    <script type="text/javascript">
+        function bigImg(x) {
+            document.getElementById("card-hov").style.display = "none";
+            document.getElementById("card-hov-1").style.display = "block";
+        }
+
+
+    </script>
+    <script>
+        function goster1() {
+            document.getElementById("card-1").style.display = "block";
+            document.getElementById("card-2").style.display = "none";
+            document.getElementById("card-3").style.display = "none";
+            document.getElementById("card-4").style.display = "none";
+        }
+    </script>
+    <script>
+        function goster2() {
+            document.getElementById("card-1").style.display = "none";
+            document.getElementById("card-2").style.display = "block";
+            document.getElementById("card-3").style.display = "none";
+            document.getElementById("card-4").style.display = "none";
+        }
+    </script>
+    <script>
+        function goster3() {
+            document.getElementById("card-1").style.display = "none";
+            document.getElementById("card-2").style.display = "none";
+            document.getElementById("card-3").style.display = "block";
+            document.getElementById("card-4").style.display = "none";
+        }
+    </script>
+    <script>
+        function goster4() {
+            document.getElementById("card-1").style.display = "none";
+            document.getElementById("card-2").style.display = "none";
+            document.getElementById("card-3").style.display = "none";
+            document.getElementById("card-4").style.display = "block";
+        }
+    </script>
+</head>
+
+<body style="background-color: rgb(245, 241, 238)">
+    <header class="header" style="background-color: rgb(245, 241, 238)">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="header-nav w-100">
+                    <nav class="navbar navbar-light navbar-expand-lg has-mega-menu-advanced">
+                        <!-- logo -->
+                        <a class="navbar-brand header-brand" href="index-intro.html"><svg viewBox="0 0 125 30" width="125" height="30"><path d="M0 0h30v30H0z" fill="#47b972"></path><path d="M22 11h-.08a3.82 3.82 0 0 0-2.53-.88A4.42 4.42 0 0 0 16 11.63L17.23 13a3.06 3.06 0 0 1 2.19-.95 2.76 2.76 0 0 1 2.69 3 2.76 2.76 0 0 1-2.76 3c-4.16 0-3-7.83-8.58-7.83A4.67 4.67 0 0 0 6 15v8.5h2V19h.08a3.87 3.87 0 0 0 2.53.87 4.41 4.41 0 0 0 3.45-1.48L12.77 17a3.06 3.06 0 0 1-2.19.95 2.75 2.75 0 0 1-2.69-3 2.76 2.76 0 0 1 2.76-3c4.16 0 3 7.83 8.59 7.83A4.66 4.66 0 0 0 24 14.94V6.5h-2z" fill="#fff"></path><path d="M43.2 7.4H38v13.32h2.18v-5.19h3C46.3 15.53 48 14 48 11.47S46.3 7.4 43.2 7.4zm0 6h-3v-4h3c1.73 0 2.54.65 2.54 2s-.85 2.04-2.58 2.04zM55.81 11.63v1.08A3.43 3.43 0 0 0 53 11.39a4.57 4.57 0 0 0-4.55 4.78A4.58 4.58 0 0 0 53 21a3.48 3.48 0 0 0 2.86-1.33v1.09h2v-9.13zm-2.66 7.48a2.74 2.74 0 0 1-2.74-2.94 2.75 2.75 0 1 1 5.48 0 2.72 2.72 0 0 1-2.74 2.94zM68.5 15v5.75h-2v-5.1c0-1.53-.81-2.37-2.14-2.37A2.26 2.26 0 0 0 62 15.69v5.07h-2v-9.13h2v1.12a3.22 3.22 0 0 1 2.82-1.36A3.51 3.51 0 0 1 68.5 15zM77.21 7v5.71a3.45 3.45 0 0 0-2.86-1.32 4.58 4.58 0 0 0-4.56 4.78A4.58 4.58 0 0 0 74.35 21a3.48 3.48 0 0 0 2.86-1.33v1.09h2V7zm-2.66 12.11a2.74 2.74 0 0 1-2.74-2.94 2.75 2.75 0 1 1 5.48 0 2.72 2.72 0 0 1-2.74 2.94zM88.17 11.63v1.08a3.43 3.43 0 0 0-2.86-1.32 4.57 4.57 0 0 0-4.55 4.78A4.58 4.58 0 0 0 85.31 21a3.48 3.48 0 0 0 2.86-1.33v1.09h2v-9.13zm-2.66 7.48a2.74 2.74 0 0 1-2.74-2.94 2.75 2.75 0 1 1 5.48 0 2.72 2.72 0 0 1-2.74 2.94zM97.76 7.4h-5.32v13.36h5.32c4.19 0 6.93-2.66 6.93-6.68S102 7.4 97.76 7.4zm0 11.31h-3.14V9.45h3.14c3.14 0 4.67 1.89 4.67 4.63s-1.53 4.63-4.67 4.63zM110.65 11.39a4.79 4.79 0 1 0 4.92 4.78 4.72 4.72 0 0 0-4.92-4.78zm0 7.72a2.82 2.82 0 0 1-2.86-2.94 2.87 2.87 0 1 1 5.73 0 2.8 2.8 0 0 1-2.87 2.94zM125 12.83l-1.29 1.37a3.06 3.06 0 0 0-2.18-.92 2.73 2.73 0 0 0-2.7 2.93 2.74 2.74 0 0 0 2.7 2.94 3.28 3.28 0 0 0 2.26-1l1.21 1.4a4.42 4.42 0 0 1-3.43 1.45 4.58 4.58 0 0 1-4.79-4.79 4.59 4.59 0 0 1 4.79-4.79 4.21 4.21 0 0 1 3.43 1.41z" fill="#111"></path></svg></a>
+
+                        <!-- navbar menu items -->
+
+                        <ul class="navbar-nav mr-auto">
+
+
+
+
+
+                            <li class="nav-item dropdown mega-menu-advanced-wrapper">
+
+                                <div class="dropdown-menu mega-menu-advanced" aria-labelledby="pageslink">
+                                    <div class="container">
+
+                                        <!-- mega menu column -->
+                                        <div class="col-md-12">
+                                            <div class="mega-menu-content show col-md-12">
+
+                                                <!-- menu col items -->
+                                                <div class="row">
+                                                    <!-- item -->
+                                                    <!-- item -->
+                                                    <!-- item -->
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                            </li>
+                            </li>
+                </div>
+            </div>
+        </div>
+        </li>
+
+        </ul>
+        </div>
+
+        <!-- header right side -->
+        </nav>
+        </div>
+
+        </div>
+        </div>
+    </header>
+
+
+
+    <section style="margin-top: 8vw">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h1><strong>Request a personalized<br> demo of Pandadoc</strong><h1>
+                    </div>
+                    <div>
+                        <p>Fill out the form on the right for a custom tour by a<br> product specialist to see how PandaDoc can help you<br> easily create, approve, and eSign proposals, quotes, and<br> contracts.</p>
+                    </div>
+                    <div>
+                        <img src="~/Content/assets/images/rating.png">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    @using (Html.BeginForm("PandaForm1", "Form", FormMethod.Post))
+                    {
+                        <form class="form gr-form">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">First Name</label>
+                                        <input type="text" class="form-control" value="" name="firstname" required>
+                                        <label class="gr-label">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">Last Name</label>
+                                        <input type="text" class="form-control" name="lastname" required>
+                                        <label class="gr-label">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">Work Email</label>
+                                        <input type="text" class="form-control" value=" " name="workemail" required>
+                                        <label class="gr-label">Work Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">Phone Number</label>
+                                        <input type="text" class="form-control" name="phone" required>
+                                        <label class="gr-label">Phone Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">Company Name</label>
+                                        <input type="text" class="form-control" value=" " name="companyname" required>
+                                        <label class="gr-label">Company Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group gr-form-group gr-form-group-dark gr-form-group-inside">
+                                        <label class="gr-top-label">Company Size</label>
+                                        <input type="text" class="form-control" name="companysize" required>
+                                        <label class="gr-label">Company Size</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-global">Request a demo</button>
+                            </div>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="margin-top: 8vw">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1.5"></div>
+            </div>
+
+            <div class="row post-grid">
+                <!-- post item -->
+                <div class="post-wrap col-md-4">
+                    <div class="post-item card">
+                        <a href="#"></a>
+                        <div class="card-body" style="margin-top: 5vw">
+                            <img src="~/Content/assets/images/kick.png">
+                            <p style="font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: rgb(36, 36, 36);" class="card-title mb-2"><a href="#">“If I told our reps we’re going<br>  back to DocuSign, they’d<br> probably be extremely unhappy<br> with me. Gone are the days of<br> our clunky, inefficient proposal<br> and contract process.”</a></p><br>
+
+                            <div class="post-item-meta d-flex align-items-center mt-4">
+                                <div class="post-item-author media" style="margin-top: 3vw">
+                                    <a href="#" class="post-item-author-avatar mr-2">
+                                        <img src="~/Content/assets/images/avatars/avatar02.png" class="avatar avatar-48" alt="Ana Rhodes">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <a href="#" class="font-regular">Ana Rhodes</a>
+                                        <div class="font-xs text-muted post-item-date">
+                                            Director of Operations
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ml-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- post item : tall style -->
+                <div class="post-wrap col-md-4">
+                    <div class="post-item card">
+                        <a href="#"></a>
+                        <div class="card-body" style="margin-top: 5vw">
+                            <img src="~/Content/assets/images/verified.png">
+
+                            <p style="font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: rgb(36, 36, 36);" class="card-title mb-2"><a href="#">““The time our sales team has<br> saved with PandaDoc is<br> incredible. Our sales team is<br> happy that we now have a<br> solution that has streamlined<br> their daily tasks and has made it<br> easier for them to close deals<br> fast.””</a></p>
+
+                            <div class="post-item-meta d-flex align-items-center mt-4">
+                                <div class="post-item-author media" style="margin-top: 3vw">
+                                    <a href="#" class="post-item-author-avatar mr-2">
+                                        <img src="~/Content/assets/images/avatars/avatar02.png" class="avatar avatar-48" alt="Ana Rhodes">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <a href="#" class="font-regular">Ana Rhodes</a>
+                                        <div class="font-xs text-muted post-item-date">
+                                            Director of Operations
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ml-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- post item : minimal -->
+                <div class="post-wrap col-md-4">
+                    <div class="post-item card">
+                        <a href="#"></a>
+                        <div class="card-body" style="margin-top: 5vw">
+                            <img src="~/Content/assets/images/autodesk.png">
+
+                            <p style="font-size: 18px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: rgb(36, 36, 36);" class="card-title mb-2"><a href="#">“Email is where deals go to die.<br> Replacing our workflow with<br> PandaDoc gave life to our sales<br> team.”</a></p>
+
+                            <br><br><br><br> <div class="post-item-meta d-flex align-items-center mt-4">
+                                <div class="post-item-author media" style="margin-top: 3vw">
+                                    <a href="#" class="post-item-author-avatar mr-2">
+                                        <img src="~/Content/assets/images/avatars/avatar02.png" class="avatar avatar-48" alt="Ana Rhodes">
+                                    </a>
+                                    <div class="media-body align-self-center">
+                                        <a href="#" class="font-regular">Ana Rhodes</a>
+                                        <div class="font-xs text-muted post-item-date">
+                                            Director of Operations
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ml-auto">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-1.5"></div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <a href="#" class="goup"><i class="icon-double-up"></i></a>
+
+    <!-- global scripts -->
+    <script src="~/Content/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- vendors -->
+    <script src="~/Content/vendor/slick/slick.js"></script>
+    <script src="~/Content/vendor/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="~/Content/vendor/lazyload/dist/lazyload.min.js"></script>
+    <script src="~/Content/vendor/skrollr/dist/skrollr.min.js"></script>
+    <script src="~/Content/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/Content/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="~/Content/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+
+    <!-- scripts -->
+    <script src="~/Content/assets/js/script.js"></script>
+    <!-- inline page scripts -->
+    <script>
+        if (!is_touch_device()) {
+            $(window).on("load", function () {
+                var s = skrollr.init({
+                    forceHeight: false,
+                });
+            });
+        }
+    </script>
+    <!-- init countdown -->
+    <script>
+        $('.countdown').each(function (e) {
+            var countdown_until = $(this).data('countdown');
+            $(this).countdown(countdown_until, function (event) {
+                $(this).html(event.strftime('%-D<small>Day%!D</small> %H<small>Hour%!H</small> %M<small>Minute%!M</small> %S<small>Seconds</small>'));
+            });
+        })
+    </script>
+</body>
+</html>
+
